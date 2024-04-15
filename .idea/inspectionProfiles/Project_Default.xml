@@ -1,0 +1,46 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="10">
+            <item index="0" class="java.lang.String" itemvalue="drf-yasg-1.21.7" />
+            <item index="1" class="java.lang.String" itemvalue="drf_yasg-1.21.7" />
+            <item index="2" class="java.lang.String" itemvalue="typing_extensions" />
+            <item index="3" class="java.lang.String" itemvalue="environ" />
+            <item index="4" class="java.lang.String" itemvalue="django-environ" />
+            <item index="5" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="6" class="java.lang.String" itemvalue="django-dotenv" />
+            <item index="7" class="java.lang.String" itemvalue="django-rest-framework-0.1.0" />
+            <item index="8" class="java.lang.String" itemvalue="djangorestframework-3.14.0" />
+            <item index="9" class="java.lang.String" itemvalue="telebot" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+          <option value="E302" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="core.decorators.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
